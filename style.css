@@ -12,31 +12,30 @@
 }
 
 .describe {
-    font-size: 1rem;
-    margin-bottom: 30px;
+    font-size: 1.6rem;
+    margin: 0px 10px 30px 10px;
+    padding-bottom: 10px;
     font-style:italic;
 }
 
 #img-div {
     background-color: white;
-    margin: 15px;
+    margin: auto;
     padding: 25px;
-    border-radius: 2%;
 }
 
 #image {
     max-width: 90%;
-    height: auto;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
+    /* height: 60rem;
+    width: auto; */
+    display: inline-block;
 }
 
+@media screen and (max-width: 1440px) {
 
-@media screen and (min-width: 765px) {
-    body {
-        width: 100%;
-        font-size: 80%;
+    #image {
+        max-width: 90%;
+        font-size: 1.2rem;
     }
 }
 
@@ -53,20 +52,21 @@
     color: #273746;
     margin-top: 100px;
     margin-bottom: 100px;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 ul {
     text-align: left;
     margin-left: 100px;
     margin-right: 100px;
-    line-height: 1.4rem;
+    line-height: 1.6rem;
 }
 
 .quote {
     margin: 0 100px 30px 100px;
     background-color: #EFEBE9;
     padding: 15px;
-    border-radius: 10px;
-    font-size: 1rem;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
 }
