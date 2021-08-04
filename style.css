@@ -6,13 +6,17 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.header {
+    margin: 150px auto;
+}
+
 #title {
     font-size: 4rem;
     margin-bottom: 0;
 }
 
 .describe {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin: 0px 10px 30px 10px;
     padding-bottom: 10px;
     font-style:italic;
@@ -26,8 +30,6 @@
 
 #image {
     max-width: 90%;
-    /* height: 60rem;
-    width: auto; */
     display: inline-block;
 }
 
